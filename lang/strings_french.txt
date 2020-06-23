@@ -1,0 +1,17 @@
+<?php
+/**
+ * QuietChangeStatus Plugin for MantisBT
+ * @link https://github.com/Association-cocktail/QuietChangeStatus
+ *
+ * @author    Marc-Antoine TURBET-DELOF<marc-antoine.turbet-delof@asso-cocktail.fr>
+ * @copyright Copyright (c) 2020 Association Cocktail, Marc-Antoine TURBET-DELOF
+ */
+
+$s_plugin_QuietChangeStatus_title = 'QuietChangeStatus';
+$s_plugin_QuietChangeStatus_description = 'Changer le status d'un bug de en désacrivant temporairement la notification par mail';
+
+# Config page
+$s_plugin_QuietChangeStatus_config            = 'Configuration';
+$s_plugin_QuietChangeStatus_custom_field_name = 'Nom du Champ Personnalisé';
+$s_plugin_QuietChangeStatus_disable_name      = 'Valeure du CP pour desactiver l\'envoi de mail';
+$s_plugin_QuietChangeStatus_no_change_name    = 'Valeure di CP pour conserver le comportement par défaut';
